@@ -1,0 +1,68 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+#title{
+  background-color: red;
+}
+.greeting-text h1{
+  margin-top: 50vh;
+}
+.greeting-img{
+  display: flex;
+  justify-content: center;
+}
+.greeting-img img{
+ padding-top: 100px;
+ height: 100vh;
+}
+#testimonial{
+  padding: 100px 100px 50px 100px;
+  background-color: #e9ecef;
+  margin-bottom: 50px;
+  }
+.xyz{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.dog-img{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+
+}
+.company-img{
+  display: flex;
+  justify-content: space-around;
+}
+.pricing-scheme{
+  padding: 50px 100px;
+}
+#footer{
+
+  padding: 0px 50px 10px 50px;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
